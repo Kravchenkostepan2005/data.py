@@ -4,7 +4,6 @@ from pydantic import BaseModel
 from bs4 import BeautifulSoup
 
 app = FastAPI()
-API_KEY = "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"
 openai.api_key = API_KEY
 
 model_id = "gpt-3.5-turbo"
